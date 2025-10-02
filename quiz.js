@@ -3,7 +3,7 @@ function checkAnswer(){
   const userAnswer = document.querySelector('input[name="quiz"]:checked').value;
   const feedback = document.getElementById('feedback');
 
-  if(userAnswer === correctAnswer){
+  if (userAnswer === correctAnswer){
     feedback.textContent = "Correct! Well done.";
     feedback.style.color = "#28a745";
   }else{
